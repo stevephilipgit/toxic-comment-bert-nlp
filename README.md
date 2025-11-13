@@ -22,7 +22,7 @@ The final model is a **fine-tuned DistilBERT** capable of identifying toxic comm
 
 # 🚀 Live Demo (Streamlit App)
 
-🔗 **Live App:** *[Add your streamlit URL here]*  
+🔗 **Live App:** https://toxic-comment-bert-nlp-wuvqwignssatxjjpcjgzm4.streamlit.app/
 Paste any comment and instantly see toxicity + confidence!
 
 ---
