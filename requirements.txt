@@ -1,0 +1,6 @@
+streamlit
+torch
+transformers>=4.46.0
+nltk
+huggingface_hub
+
