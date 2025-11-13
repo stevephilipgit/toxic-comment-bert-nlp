@@ -90,7 +90,7 @@ def predict(text):
 # -----------------------------
 st.set_page_config(page_title="Toxic Comment Detector", layout="centered")
 
-st.title("🛡️ Toxic Comment Detection (Fine-tuned DistilBERT)")
+st.title(" Toxic Comment Detection (Fine-tuned DistilBERT)")
 st.write("Paste any comment below. AI will classify it as **Toxic** or **Non-Toxic**.")
 
 text_input = st.text_area("Enter a comment:", height=150)
@@ -109,5 +109,5 @@ if st.button("Analyze"):
         st.code(clean_text)
 
 st.markdown("---")
-st.write("Model fine-tuned on Civil Comments Dataset.")
-
+st.write("Model fine-tuned on Civil Comments Dataset. ")
+st.markdown("- Steve Philip. S")
