@@ -104,7 +104,7 @@ This ensures the model receives clean, normalized text.
 - Added dropout (0.3)
 - Gradient checkpointing (memory optimized)
 - Mixed-precision training (FP16)
-- Max length: 64 tokens (optimized)
+- Max length: 128 tokens (optimized)
 - Optimizer: AdamW
 - Scheduler: Cosine learning rate decay
 - Early Stopping: patience=2
