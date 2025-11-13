@@ -51,10 +51,9 @@ MODEL_PATH = "stevehugss/toxic-comment-bert"   # change if needed
 def load_model():
     tokenizer = DistilBertTokenizerFast.from_pretrained(MODEL_PATH)
 
-    # Load model.safetensors
     model = DistilBertForSequenceClassification.from_pretrained(
         MODEL_PATH,
-        from_safetensors=True
+        local_files_only=False
     )
     model.eval()
     return tokenizer, model
@@ -111,3 +110,4 @@ if st.button("Analyze"):
 
 st.markdown("---")
 st.write("Model fine-tuned on Civil Comments Dataset.")
+
